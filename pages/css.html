@@ -2,23 +2,106 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"
     
-    <title>CSS оформление</title>
 </head>
 <body>
-    <h1>
-        CSS оформление
-    </h1>
-    <ul>
-        <li>
-<a href="../index.html">Главная страница</a>
-        </li>
-        <li>
-            <a href="html_layout.html">Об HTML верстке</a>
-        </li>
-        <li>
-            <a href="JS.html">JavaScript программирование</a>
-        </li>
-    </ul>
+    
+
+   <table border="1" width="100%">
+        <tr> 
+            <td rowspan="2" width="10%">
+                <img src="../images/css.svg" width="60%">
+            </td>
+            
+                
+            <td  colspan="2" rowspan="3" width="70%">
+               <h1>Мой сайт - мой дизайн</h1> 
+            </td>
+           
+            
+            <td>Логин</td>
+        </tr>
+        <tr> 
+            <td>Пароль</td>
+        </tr>
+        </table>
+        <table border="1" width="100%">
+            <tr>
+                <td><a style="color: rgb(247, 247, 247);" href="../index.html">Главная страница</a>
+                    
+                    
+                        <a style="color: rgb(255, 255, 255);" href="css.html">CSS оформление</a>
+                    
+                    
+                        <a style="color: rgb(255, 255, 255);" href="JS.html">JS программирование</a></td>
+            </tr>
+        </table>
+        <table border="1" width="100%">
+            <tr>
+                <td rowspan="1" width="20%">
+                    
+                        Список товарищей
+                    
+                    
+                </td>
+                <td width="80%" >
+                    
+                   <p>
+                    CSS - это язык оформления HTML-документов. За более подробной информацией <a  href="https://ru.wikipedia.org/wiki/CSS">сюда.</a>  
+                    Так как он является вспомогательным языком, 
+                    то существует несколько основных способов его добавления на web-страницу:
+                </p>
+                
+                <p>
+                  <li>
+                    Внешний &lt;link rel="stylesheet" href="style.css"&gt;
+                </li>
+                   <li>
+                       Внутренний глобальный &lt;style&gt;&lt;/style &gt;
+                </li> 
+                  <li>
+                      Внутренний локальный &lt;span style="color: red"&gt;&lt;/span&gt;
+                  </li>     
+                </p>
+                <p>
+                    Синтаксис языка выглядит следующим образом: сначала указывается изменяемый элемент 
+                    с помощью  селектора , после этого в фигурных скобках перечисляются через точку с запятой изменяемые свойства элемента 
+                    (цвет, размер, расположение и т.д.), затем напротив каждого свойства 
+                    указывается значение (red, left, 1px и т.д.). Например:
+                </p>
+                
+                <span>
+                    table  {<br>
+                        width: 80%;<br>
+                        border-color: white;<br>
+                        border-style: groove;<br>
+                        border-width: 5px;<br>
+                    }
+                </span>
+                <p>
+                    В ситуации когда изменить необходимо только некоторые элементы, следует пользоваться указателями класса: когда одни и теже теги принадлежат разным классам и оформляются по разному.
+                   <p>
+                       &lt;table class="header"&gt;&lt;/table&gt; <br>
+                   &lt;table class="main"&gt;&lt;/table&gt;
+                   </p> 
+                    
+                </p>
+                    
+                
+               
+                  
+                   
+                </td>
+                <tr>
+                    <td colspan="3">
+                        Подвал
+                    </td>
+
+                </tr>
+               
+            </tr>
+        </table>
+
 </body>
 </html>
