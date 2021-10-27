@@ -2,28 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css"
-    
+    <link rel="stylesheet" href="style.css">
+    <title>CSS оформление</title>
+    <style>
+        header {
+            margin-right: auto;
+            margin-left: auto;
+            width: 100%;
+            background-color: aqua;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        div.header-logo {
+            width: 50%;
+        }
+        div.header-main {
+           margin-right: 30%;
+           padding-right: 0px;
+           padding-left: 0px;
+           width: 800px;
+        }
+        
+        
+    </style>
 </head>
 <body>
-    
+    <header>
+        <div class="header-logo">
+            <img src="../images/css.svg" width="10%">
+        </div>
+        <div class="header-main">
+            <h1>Мой сайт-мой дизайн</h1>
+        </div>
+        
+        Логин
+        Пароль
+        
+    </header>
 
    <table border="1" width="100%">
         <tr> 
-            <td rowspan="2" width="10%">
-                <img src="../images/css.svg" width="60%">
-            </td>
+            
             
                 
-            <td  colspan="2" rowspan="3" width="70%">
-               <h1>Мой сайт - мой дизайн</h1> 
-            </td>
-           
             
-            <td>Логин</td>
-        </tr>
-        <tr> 
-            <td>Пароль</td>
         </tr>
         </table>
         <table border="1" width="100%">
