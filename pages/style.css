@@ -1,23 +1,29 @@
 header {
   margin: auto;
   width: 100%;
-  background-color: aqua;
+  background-color: rgb(252, 230, 201);
   height: 150px;
 }
 div.header-logo {
   height: 100%;
-  width: 20%;
+  width: 50%;
   float: left;
 }
 div.header-main {
   height: 100%;
-background-color: blueviolet;
+  background-color: rgb(252, 230, 201);
 width: 50%;
- float: right ;
+display: flex;
+align-items: center;
+align-content: center; 
+justify-content: center; 
+
  
 }
-div.login {
-  background-color: cadetblue;
-  width: 20%;
-  float: right;
-  height: 100%;
+main {
+  background-color: rgb(200, 200, 245);
+}
+footer {
+  background-color: cornsilk;
+  height: 100px;
+}
